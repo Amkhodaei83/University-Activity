@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# LaTeX
+*.aux
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Compiled files (C/C++, Java, etc.)
+*.obj
+*.exe
+*.dll
+*.lib
+*.class
+target/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Our script and its config
+daily_commit_script.py
+commit_progress.json
